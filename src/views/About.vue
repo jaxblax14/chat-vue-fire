@@ -1,5 +1,7 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div id="app">
+    <img alt="logo" src="./assets/logo.png">
+    <router-view/>
+
   </div>
 </template>
